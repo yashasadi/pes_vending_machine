@@ -1,4 +1,4 @@
-module iiitb_vm(output reg [1:0] change,output reg out,input [1:0] in, input clock,input reset);
+module pes_vm(output reg [1:0] change,output reg out,input [1:0] in, input clock,input reset);
 reg [2:0] c_state,n_state;
 
 always@(posedge clock)
