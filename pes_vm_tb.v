@@ -9,7 +9,7 @@ module pes_vm_tb;
   wire out;
   wire[1:0] change;
 
- iiitb_vm uut(
+ pes_vm uut(
   .clock(clk),
   .reset(rst),
   .in(in),
